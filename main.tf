@@ -1,4 +1,4 @@
-#fixed cloudwatch event rule - "basic"
+#fixed cloudwatch event rule - 
 #fixed cloudwatch event rule - "advanced"
 # Cloudwatch event rule
 resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
