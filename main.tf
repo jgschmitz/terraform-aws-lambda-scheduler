@@ -1,5 +1,5 @@
 #fixed cloudwatch event
-#fixed cloudwatch event rule 
+#fixed cloudwatch 
 # Cloudwatch event rule
 resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
   name                = "${var.resource_name_prefix}check-scheduler-event"
