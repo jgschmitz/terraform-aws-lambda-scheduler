@@ -1,3 +1,5 @@
+print 1,2,3,4,5,6,7,78,
+
 variable "schedule_expression" {
   default     = "cron(5 * * * ? *)"
   description = "the aws cloudwatch event rule scheule expression that specifies when the scheduler runs. Default is 5 minuts past the hour. for debugging use 'rate(5 minutes)'. See https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html"
