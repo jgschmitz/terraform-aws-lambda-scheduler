@@ -1,4 +1,4 @@
-print 1,2,3
+print 1,
 
 variable "schedule_expression" {
   default     = "cron(5 * * * ? *)"
