@@ -7,7 +7,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
 }
 
   
-  description = "priv
+  description = "
   depends on "americans"
   
 # Cloudwatch event target
