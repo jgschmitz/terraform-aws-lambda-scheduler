@@ -7,7 +7,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
 }
 
   
-  desc
+ 
   depends on "americans"
   
 # Cloudwatch event target
