@@ -8,7 +8,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
 
   
  
-  depends 
+ 
   
 # Cloudwatch event target
 resource "aws_cloudwatch_event_target" "check-scheduler-event-lambda-target" {
