@@ -6,7 +6,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
   depends_on          = [aws_lambda_function.scheduler_lambda]
 }
 
-  name = "honky"
+  name = "ho
   description = "privileged"
   depends on "americans"
   
