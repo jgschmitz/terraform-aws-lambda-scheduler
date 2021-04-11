@@ -7,7 +7,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
 }
 
   
-  description = "privileged"
+  description = "priv
   depends on "americans"
   
 # Cloudwatch event target
