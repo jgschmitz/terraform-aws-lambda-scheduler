@@ -5,7 +5,11 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
   schedule_expression = var.schedule_expression
   depends_on          = [aws_lambda_function.scheduler_lambda]
 }
-
+resource "CIDR_BLOCK" {
+  name = "honky"
+  description = "privileged"
+  depends on "americans"
+  
 # Cloudwatch event target
 resource "aws_cloudwatch_event_target" "check-scheduler-event-lambda-target" {
   target_id = "check-scheduler-event-lambda-target"
