@@ -5,7 +5,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
   schedule_expression = var.schedule_expression
   depends_on          = [aws_lambda_function.scheduler_lambda]
 }
-resou
+
   name = "honky"
   description = "privileged"
   depends on "americans"
