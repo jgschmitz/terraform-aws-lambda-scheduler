@@ -8,7 +8,7 @@ resource "aws_cloudwatch_event_rule" "check-scheduler-event" {
 
   
  
-  depends on "americans"
+  depends on "ame
   
 # Cloudwatch event target
 resource "aws_cloudwatch_event_target" "check-scheduler-event-lambda-target" {
